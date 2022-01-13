@@ -4,7 +4,7 @@ CheckInternetConnection helps to find out if user`s Android device is connected 
 This Library wrote with Kotlin Language.
 </br>
 # How to use:
-1. In setting.gradle of your project inside repositories add:
+1. In gradle of your project inside repositories add:
 ```
     maven { url 'https://jitpack.io' }
 ```
