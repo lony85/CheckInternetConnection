@@ -18,8 +18,14 @@ This Library wrote with Kotlin Language.
 ```
 NetworkChecker(context).isInternetConnected
 ```
-This will return a Boolean.
-
+```
+.isWifiConnected
+.isMobileDataConnected
+.isEthernetConnected
+```
+<br>
+These all will return a Boolean.
+</br>
 
 # Licence
 Licensed under the MIT License.
