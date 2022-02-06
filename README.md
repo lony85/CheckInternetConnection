@@ -10,7 +10,7 @@ This Library wrote with Kotlin Language.
 ```
 2. In build.gradle of your app add library:
 ```
-    implementation 'com.github.lony85:CheckInternetConnection:1.0.1'
+	    implementation 'com.github.lony85:CheckInternetConnection:1.0.2'
 
 ```
 
