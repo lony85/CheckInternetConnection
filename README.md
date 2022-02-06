@@ -10,7 +10,7 @@ This Library wrote with Kotlin Language.
 ```
 2. In build.gradle of your app add library:
 ```
-    implementation 'com.github.lony85:CheckInternetConnection:1.0.0'
+    implementation 'com.github.lony85:CheckInternetConnection:1.0.1'
 
 ```
 
@@ -18,8 +18,12 @@ This Library wrote with Kotlin Language.
 ```
 NetworkChecker(context).isInternetConnected
 ```
-This will return a Boolean.
-
+```
+                        .isWifiConnected
+                        .isMobileDataConnected
+                        .isEthernetConnected
+```
+These all will return a Boolean.
 
 # Licence
 Licensed under the MIT License.
